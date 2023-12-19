@@ -1,9 +1,9 @@
 import React from "react";
 
-function Button({ buttonName }) {
+function RedButton({ buttonName }) {
   return (
     <button
-      style={{ backgroundColor: "green" }}
+      style={{ backgroundColor: "red" }}
       onClick={() => alert(`Hello this ${buttonName} is triggered from MFE`)}
     >
       {buttonName}
@@ -11,4 +11,4 @@ function Button({ buttonName }) {
   );
 }
 
-export default Button;
+export default RedButton;

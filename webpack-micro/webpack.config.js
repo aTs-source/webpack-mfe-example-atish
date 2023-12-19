@@ -28,6 +28,7 @@ module.exports = {
       filename: "remoteEntry.js",
       exposes: {
         "./Button": "./src/component/Button",
+        "./RedButton": "./src/component/RedButton",
       },
       // remotes: {
       //   MicroFrontend: "MicroFrontend@http://localhost:3000/remoteEntry.js",

@@ -27,3 +27,10 @@ should be installed in both of the projects.
 Here are two indevisual project. 
   1. webpack-shell
   2. webpack-mfe
+
+
+Run the projects indevisually.
+
+commands
+1. npm install
+2. npm run dev

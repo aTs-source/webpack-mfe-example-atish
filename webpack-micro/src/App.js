@@ -1,7 +1,11 @@
 import React from "react";
 
 function App() {
-  return <div>App Micro Font-end</div>;
+  return (
+    <div>
+      <h1>App Micro Font-end</h1>
+    </div>
+  );
 }
 
 export default App;

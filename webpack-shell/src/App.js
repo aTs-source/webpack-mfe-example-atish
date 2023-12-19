@@ -5,7 +5,7 @@ const Button = lazy(() => import("MicroFrontend/Button"));
 function App() {
   return (
     <div>
-      App Shell
+      <h1>App Shell</h1>
       <Button buttonName={"click here"} />
     </div>
   );

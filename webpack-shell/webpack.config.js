@@ -27,7 +27,7 @@ module.exports = {
       name: "ShellApplication",
       filename: "remoteEntry.js",
       remotes: {
-        MicroFrontend: "MicroFrontend@http://localhost:3000/remoteEntry.js",
+        MicroFrontend: "MicroFrontend@http://localhost:3000/buttons.js", // remote url
       },
     }),
   ],

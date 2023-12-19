@@ -25,7 +25,7 @@ module.exports = {
     htmlPlugin,
     new ModuleFederationPlugin({
       name: "MicroFrontend",
-      filename: "remoteEntry.js",
+      filename: "buttons.js",
       exposes: {
         "./Button": "./src/component/Button",
         "./RedButton": "./src/component/RedButton",
